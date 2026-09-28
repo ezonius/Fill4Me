@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: Sep 28, 2026
+  Bugfixes:
+    - Fixed error with Factorio 2.1.20, which replaced `LuaItemPrototype::fuel_category` with `fuel_categories`. Fill4Me now reads the new array (multi-category fuels are also handled).
+  Changes:
+    - Raised minimum Factorio version to 2.1.20 (the fuel category API change is not backwards compatible).
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: Jun 29, 2026
   Bugfixes:
@@ -223,4 +230,3 @@ Version: 0.1.0
 Date: Jul 19, 2018
   Changes:
     - Initial release.
-
